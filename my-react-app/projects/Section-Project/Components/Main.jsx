@@ -1,7 +1,7 @@
 export default function Main() {
     return (
         <main className="main">
-            <h1>Fun Facts About React!</h1>
+            <h1 className="main-heading">Fun Facts About React!</h1>
             <ul className="facts-list">
                 <li>was first created and released by Facebook in 2013</li>
                 <li>was originally developed by Jordan Walke, a software engineer at Facebook</li>

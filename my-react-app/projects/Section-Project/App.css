@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background : #1f242c;
+    color : white;
+}
+h1{
+    margin: 0px;
+}
+
+
+.header{
+    padding: 20px;
+    margin: 0px;
+    background-color: #21222A;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color:rgb(97, 218, 251);
+    font-weight: bold;
+    border: 2px solid #131417;
+}
+.header spam{
+    font-size: 1.2rem;
+    font-family: 'Lucida Handwriting', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 40px;
+}
+.main{
+    margin: 20px 0px 20px 20px;
+    padding: 25px;
+    gap: 5px;
+    font-style:italic;
+    background-image: url("data/half-react-grey.png");
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y: bottom;
+    background-size: contain;
+}
+main .main-heading{
+    color: rgb(235, 201, 201);
+    font-family: 'Lucida Handwriting', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+.facts-list > li::marker{
+    color: rgb(97, 218, 251);
+    font-size: 1.2rem;
+}
+.facts-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
